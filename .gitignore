@@ -1,41 +1,23 @@
-# Prerequisites
-*.d
+# Sistema operacional
+.DS_Store
+Thumbs.db
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Arquivos temporários
+*.tmp
+*.log
 
-# Precompiled Headers
-*.gch
-*.pch
+# Arduino / build
+*.ino.cpp
+*.elf
+*.hex
 
-# Linker files
-*.ilk
+# Pastas de IDE
+.vscode/
+.idea/
 
-# Debugger Files
-*.pdb
+# Dependências (se usar no futuro)
+node_modules/
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# debug information files
-*.dwo
+# Arquivos grandes opcionais (caso não queira subir)
+*.mp4
+*.zip
