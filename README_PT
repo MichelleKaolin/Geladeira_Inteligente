@@ -1,0 +1,83 @@
+# 🧊 Geladeira Inteligente com Monitoramento de Qualidade do Ar
+
+## 📌 Sobre o projeto
+Este projeto simula uma geladeira inteligente utilizando Arduino (via Tinkercad), com o objetivo de monitorar condições internas e fornecer alertas visuais ao usuário.
+
+O sistema analisa temperatura, presença de gases e tempo de abertura da porta, utilizando um LED RGB para indicar diferentes estados.
+
+---
+
+## ⚙️ Funcionalidades
+
+- Monitoramento de temperatura interna
+- Detecção de presença de gases
+- Identificação de porta aberta por tempo prolongado
+- Sistema de alerta visual com LED RGB
+- Exibição de dados no Monitor Serial
+
+---
+
+## 🚦 Estados do sistema
+
+| Estado        | Condição                              | Cor do LED |
+|--------------|--------------------------------------|-----------|
+| Normal       | Temperatura e gás em níveis seguros  | Verde     |
+| Porta aberta | Porta aberta por mais de 5 segundos  | Amarelo   |
+| Atenção      | Nível moderado de gás                | Laranja   |
+| Perigo       | Alta temperatura ou gás elevado      | Vermelho  |
+
+---
+
+## 🛠️ Tecnologias utilizadas
+
+- Arduino (simulado no Tinkercad)
+- Linguagem C/C++ (Arduino)
+- Sensores analógicos
+- LED RGB
+
+---
+
+## 🔌 Componentes
+
+- Arduino UNO
+- Sensor de temperatura (TMP36 ou similar)
+- Sensor de gás (simulado)
+- Botão (simulação de porta)
+- LED RGB (cátodo comum)
+- Resistores (220Ω)
+
+
+---
+
+## 📁 Estrutura do projeto
+geladeira-inteligente/
+├── README.md
+├── docs/
+├── src/
+├── assets/
+└── .gitignore
+
+---
+
+## 🚀 Como executar
+
+1. Acesse o Tinkercad
+2. Monte o circuito conforme os arquivos em `docs/`
+3. Copie o código da pasta `code/`
+4. Inicie a simulação
+ou
+1.1 clique aqui e acesse o projeto: https://www.tinkercad.com/things/cF7lMKocnEy-geladeira-inteligente-com-monitoramento-de-qualidade-do-ar?sharecode=RxvKP_Rvkk0mwtQIDQDMZVQBcUnF7pGzXTUAuK1Lvm8
+---
+
+## 💡 Melhorias futuras
+
+- Adicionar buzzer para alertas sonoros
+- Integração com IoT (monitoramento remoto)
+- Aplicativo para visualização dos dados
+- Sistema de notificações
+
+---
+
+## 👩‍💻 Autora
+
+Michelle Kaolin
