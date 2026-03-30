@@ -1,0 +1,8 @@
+﻿Nome,Quantidade,Componente
+"U1",1," Arduino Uno R3"
+"D1",1,"RCBG LED RGB"
+"U2",1," Sensor de temperatura [TMP36]"
+"GAS2",1," Sensor de gás"
+"S1",1," Botão"
+"R12, R16",2,"10 kΩ Resistor"
+"R13, R14, R15",3,"220 Ω Resistor"
